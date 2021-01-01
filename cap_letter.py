@@ -7,5 +7,5 @@ for i in range(len(k)):
     else:
         temp = k[i].lower()
     result.append(temp)
-    print('1')
+    
 print(*result,sep='')
