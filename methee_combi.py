@@ -8,10 +8,8 @@ if len(in1) != len(in2):
 
 else :
     for i in range(len(in1)):
-        if int(in1[i]) + int(in2[i]):
-            print("Invalid")
-            break
-        elif int(in1[i]) or int(in2[i]) > 32548 :
+        
+        if int(in1[i]) or int(in2[i]) > 32548 :
             print("Invalid")
             break
         else:
